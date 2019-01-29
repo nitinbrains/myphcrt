@@ -1,0 +1,84 @@
+.footer {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+
+.copyright {
+    height: auto;
+    background-color: #E4E4E4;
+    text-align: left;
+    font-size: small;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    padding-left: 2%;
+    width: 98%;
+}
+
+.copyright a {
+    color: #707070;
+}
+
+
+.footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E4E4E4;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.footer_categories {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.category_title {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.social_image {
+    width: 50px;
+    height: 35px;
+    padding-right: 15px;
+}
+
+.icon_img {
+    width: 50px;
+    height: 35px;
+    padding-right: 10px;
+}
+
+ /* 
+        ##Device = Most of the Smartphones Mobiles (Portrait)
+        ##Screen = B/w 320px to 479px
+      */
+    
+      @media (min-width: 320px) and (max-width: 480px) {
+        .footer_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #E4E4E4;
+            margin: 0;
+            margin-top: 2%;
+            width: 100%;
+        }
+
+        .copyright {
+            width: 96%;
+            padding: 2%;
+        }
+    }
+
+
+
+

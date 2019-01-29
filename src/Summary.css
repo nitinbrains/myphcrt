@@ -1,0 +1,67 @@
+.wrapper{
+    display:grid;
+    grid-template-columns: 49.3% 49.3%;
+    /*
+    grid-column-gap:1em;
+    grid-row-gap:1em;
+    */
+    grid-gap:1em;
+  }
+
+  .wrapper > div{
+    background:#ddd;;
+    padding:1em;
+  }
+  .wrapper > div:nth-child(odd){
+    background:#eee;
+  }
+
+  .wrappero{
+    display:grid;
+    grid-template-columns: 49.3% 49.3%;
+    /*
+    grid-column-gap:1em;
+    grid-row-gap:1em;
+    */
+    grid-gap:1em;
+  }
+  
+  
+  .outer{
+      border: 2px solid blue;
+      margin: 15px;
+      padding: 15px;
+  }
+
+  .buttonMy {
+    background-color: #fe5593;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 1% 1%;
+    border-radius: 8px;
+    margin:auto;
+    display:block;
+    width: 50%
+  }
+  .flowButton {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 1% 1%;
+    border-radius: 8px;
+    margin:auto;
+    display:block;
+    width: 50%
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #555;
+}
